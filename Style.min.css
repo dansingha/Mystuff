@@ -70,11 +70,14 @@ body{background-color:#1d1d1d!important}
                 .music.active .play,.music.muted .unmuted,.music:not(.active) .pause,.music:not(.muted) .muted{display:none}
                 .music i{cursor:pointer}
                 .holiday{background-image: url(http://signup-out.info/Nodemcu1/off11.jpg); background-size: cover}
-                .holiday.active{background-image: url(http://signup-out.info/Nodemcu1/on11.jpg); background-size: cover: color: #000000}
+                .holiday.active{background-image: url(http://signup-out.info/Nodemcu1/on11.jpg); background-size: cover; color: #000000}
                 .switch{background-image: url(http://signup-out.info/Nodemcu1/off.jpg); background-size: cover}
                 .switch.active{background-image: url(http://signup-out.info/Nodemcu1/on.jpg); background-size: cover}
-                .contact{background-image: url(http://signup-out.info/Nodemcu1/close.jpg); background-size: cover; color: #000000}
+                .contact{background-image: url(http://signup-out.info/Nodemcu1/closed.jpg); background-size: cover; color: #000000}
                 .contact.active{background-image: url(http://signup-out.info/Nodemcu1/open.jpg); background-size: cover; color:#000000}
                 .temperature{background-image: url(http://signup-out.info/Nodemcu1/nest.jpg); background-size: cover}
                 .humidity{background-image: url(http://signup-out.info/Nodemcu1/nest.jpg); background-size: cover}
                 .battery{background-image: url(http://signup-out.info/Nodemcu1/battery.jpg); background-size: cover}
+                .dimmer{background-image: url(http://signup-out.info/Nodemcu1/off11.jpg); background-size: cover}
+                .dimmer.active{background-image: url(http://signup-out.info/Nodemcu1/on11.jpg); background-size: cover; color: #000000}
+            
