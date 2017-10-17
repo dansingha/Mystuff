@@ -69,17 +69,12 @@ body{background-color:#1d1d1d!important}
                 .music .full-width-slider{z-index:99}
                 .music.active .play,.music.muted .unmuted,.music:not(.active) .pause,.music:not(.muted) .muted{display:none}
                 .music i{cursor:pointer}
-                .holiday{background-color:#11772D}
-                .holiday.active{background-color:#AB0F0B}
-                .holiday.active .icon i{color:#FCFA66}
-                .active .icon i{color:#FCFA66}
-                .switch.active{background-color:#AB0F0B}
-                .holiday.active{color: #000000}
                 .holiday{background-image: url(http://signup-out.info/Nodemcu1/off11.jpg); background-size: cover}
-                .holiday.active{background-image: url(http://signup-out.info/Nodemcu1/on11.jpg); background-size: cover}
+                .holiday.active{background-image: url(http://signup-out.info/Nodemcu1/on11.jpg); background-size: cover: color: #000000}
                 .switch{background-image: url(http://signup-out.info/Nodemcu1/off.jpg); background-size: cover}
                 .switch.active{background-image: url(http://signup-out.info/Nodemcu1/on.jpg); background-size: cover}
+                .contact{background-image: url(http://signup-out.info/Nodemcu1/close.jpg); background-size: cover; color: #000000}
+                .contact.active{background-image: url(http://signup-out.info/Nodemcu1/open.jpg); background-size: cover; color:#000000}
                 .temperature{background-image: url(http://signup-out.info/Nodemcu1/nest.jpg); background-size: cover}
                 .humidity{background-image: url(http://signup-out.info/Nodemcu1/nest.jpg); background-size: cover}
-                .contact.active{background-color:#AB0F0B}
                 .battery{background-image: url(http://signup-out.info/Nodemcu1/battery.jpg); background-size: cover}
