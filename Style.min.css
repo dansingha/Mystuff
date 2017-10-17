@@ -1,4 +1,4 @@
-﻿.tile{background-color:grey}
+.tile{background-color:grey}
 .weather{background-color:#a20025}
 .clock{background-color:#607d8b}
 .presence{background-color:#3f51b5}
@@ -74,6 +74,7 @@ body{background-color:#1d1d1d!important}
                 .holiday.active .icon i{color:#FCFA66}
                 .active .icon i{color:#FCFA66}
                 .switch.active{background-color:#AB0F0B}
-                .switch{background-image: url(http://signup-out.info/Nodemcu1/Light.jpg); background-size: cover}
                 .temperature{background-image: url(http://signup-out.info/Nodemcu1/nest.png); background-size: cover}
                 .humidity{background-image: url(http://signup-out.info/Nodemcu1/nest.png); background-size: cover}
+                .contact.active{background-color:#AB0F0B}
+                .battery{background-image: url(http://signup-out.info/Nodemcu1/battery.jpg); background-size: cover}
