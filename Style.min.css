@@ -74,6 +74,8 @@ body{background-color:#1d1d1d!important}
                 .holiday.active .icon i{color:#FCFA66}
                 .active .icon i{color:#FCFA66}
                 .switch.active{background-color:#AB0F0B}
+                .holiday{background-image: url(http://signup-out.info/Nodemcu1/off11.jpg); background-size: cover}
+                .holiday.active{background-image: url(http://signup-out.info/Nodemcu1/on11.jpg); background-size: cover}
                 .switch{background-image: url(http://signup-out.info/Nodemcu1/off.jpg); background-size: cover}
                 .switch.active{background-image: url(http://signup-out.info/Nodemcu1/on.jpg); background-size: cover}
                 .temperature{background-image: url(http://signup-out.info/Nodemcu1/nest.jpg); background-size: cover}
