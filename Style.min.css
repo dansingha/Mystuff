@@ -72,7 +72,7 @@ body{background-color:#1d1d1d!important}
                 .holiday{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/off11.jpg); background-size: cover}
                 .holiday.active{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/on11.jpg); background-size: cover; color: #000000}
                 .switch{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/off.jpg); background-size: cover}
-                .switch.active{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/on.jpg); background-size: cover}
+                .switch.active{animation: glowing 1000ms infinite; background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/on.jpg); background-size: cover}
                 .contact{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/closed.jpg); background-size: cover; color: #000000}
                 .contact.active{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/open.jpg); background-size: cover; color:#000000}
                 .temperature{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/nest.jpg); background-size: cover}
@@ -81,3 +81,19 @@ body{background-color:#1d1d1d!important}
                 .dimmer{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/off11.jpg); background-size: cover}
                 .dimmer.active{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/on11.jpg); background-size: cover; color: #000000}
             
+@keyframes glowing {
+    0% {
+        border-color: #B20000;
+        box-shadow: 0 0 3px #B20000;
+    }
+
+    50% {
+        border-color: #FF0000;
+        box-shadow: 0 0 40px #FF0000;
+    }
+
+    100% {
+        border-color: #B20000;
+        box-shadow: 0 0 3px #B20000;
+    }
+}
