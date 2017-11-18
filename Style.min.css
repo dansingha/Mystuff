@@ -69,7 +69,7 @@ body{background-color:#1d1d1d!important}
                 .music .full-width-slider{z-index:99}
                 .music.active .play,.music.muted .unmuted,.music:not(.active) .pause,.music:not(.muted) .muted{display:none}
                 .music i{cursor:pointer}
-                .holiday{border: outset 2px #FAFBFC;border-bottom: solid 3px #b2b1b1; background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/off11.jpg); background-size: cover}
+                .holiday{border: outset 5px;border-bottom: inset 7px; background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/off11.jpg); background-size: cover}
                 .holiday.active{animation: glowing 1000ms infinite; border:inset 1px #b2b1b1; background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/on11.jpg); background-size: cover; color: #000000}
                 .switch{border: outset 2px #FAFBFC;border-bottom: solid 3px #b2b1b1;background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/off.jpg); background-size: cover}
                 .switch.active{animation: glowing 1000ms infinite;border:inset 1px #b2b1b1; background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/on.jpg); background-size: cover}
