@@ -83,11 +83,13 @@ body{background-color:#1d1d1d!important}
             
 @keyframes glowing {
     0% {
+        
         color: #B20000;
         box-shadow: 0 0 3px #B20000;
     }
 
     50% {
+        font-weight:bold;
         color: #FF0000;
         box-shadow: 0 0 20px #FF0000;
     }
