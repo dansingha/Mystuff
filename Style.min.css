@@ -25,7 +25,7 @@
 .music.active .ui-slider-bg.ui-btn-active{background-color:#ab47bc}
 body{background-color:#1d1d1d!important}
 .tile{border-radius:2px;color:#fff}
-.tiles{margin:4px}.camera,.clock,.dimmer,.holiday,.link,.lock,.menu,.momentary,.music i,.refresh,.switch,.thermostat{cursor:pointer}
+.tiles{margin:2px}.camera,.clock,.dimmer,.holiday,.link,.lock,.menu,.momentary,.music i,.refresh,.switch,.thermostat{cursor:pointer}
     .tiles{overflow:hidden}
     .tile{width:120px;height:120px}
     .w2{width:240px}
@@ -43,7 +43,7 @@ body{background-color:#1d1d1d!important}
             .wtfcloud{background:0 0}
             .wtfcloud .icon.cloud{margin-left:-100px;font-size:200px;color:#fff}
             .wtfcloud .icon.message{margin-left:-50px;margin-top:-65px;color:grey}
-            .title{font-size:.9em;line-height:1em;height:2em;overflow:ellipsis;position:absolute;top:5px;left:5px}
+            .title{font-size:.11em;line-height:1em;height:2em;overflow:ellipsis;position:absolute;top:5px;left:5px}
             .title2{font-size:12px}
             .icon{font-size:3em;line-height:3em;width:100%;margin-top:-1.5em;position:absolute;text-align:center;top:50%;white-space:nowrap}
             .icon.text{font-size:1.8em;line-height:2em;width:100%;margin-top:-1em}
@@ -69,9 +69,9 @@ body{background-color:#1d1d1d!important}
                 .music .full-width-slider{z-index:99}
                 .music.active .play,.music.muted .unmuted,.music:not(.active) .pause,.music:not(.muted) .muted{display:none}
                 .music i{cursor:pointer}
-                .holiday{border: outset 3px;border-bottom-style:inset ; background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/off11.jpg); background-size: cover}
+                .holiday{border: outset 1px #C1C1C1; background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/off11.jpg); background-size: cover}
                 .holiday.active{animation: glowing 1000ms infinite; border:inset 1px #b2b1b1; background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/on11.jpg); background-size: cover; color: #000000}
-                .switch{border: outset 3px #FAFBFC;border-bottom-style:inset ;background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/off.jpg); background-size: cover}
+                .switch{border: outset 1px #C1C1C1;background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/off.jpg); background-size: cover}
                 .switch.active{animation: glowing 1000ms infinite;border:inset 1px #b2b1b1; background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/on.jpg); background-size: cover}
                 .contact{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/closed.jpg); background-size: cover; color: #000000}
                 .contact.active{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/open.jpg); background-size: cover; color:#000000}
@@ -83,17 +83,17 @@ body{background-color:#1d1d1d!important}
             
 @keyframes glowing {
     0% {
-        border-color: #B20000;
+        color: #B20000;
         box-shadow: 0 0 3px #B20000;
     }
 
     50% {
-        border-color: #FF0000;
+        color: #FF0000;
         box-shadow: 0 0 20px #FF0000;
     }
 
     100% {
-        border-color: #B20000;
+        color: #B20000;
         box-shadow: 0 0 3px #B20000;
     }
 }
