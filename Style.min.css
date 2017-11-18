@@ -69,10 +69,10 @@ body{background-color:#1d1d1d!important}
                 .music .full-width-slider{z-index:99}
                 .music.active .play,.music.muted .unmuted,.music:not(.active) .pause,.music:not(.muted) .muted{display:none}
                 .music i{cursor:pointer}
-                .holiday{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/off11.jpg); background-size: cover}
-                .holiday.active{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/on11.jpg); background-size: cover; color: #000000}
-                .switch{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/off.jpg); background-size: cover}
-                .switch.active{animation: glowing 1000ms infinite; background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/on.jpg); background-size: cover}
+                .holiday{border: outset 1px #FAFBFC;border-bottom: solid 3px #b2b1b1;background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/off11.jpg); background-size: cover}
+                .holiday.active{animation: glowing 1000ms infinite; border:inset 1px #b2b1b1; background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/on11.jpg); background-size: cover; color: #000000}
+                .switch{border: outset 1px #FAFBFC;border-bottom: solid 3px #b2b1b1; background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/off.jpg); background-size: cover}
+                .switch.active{animation: glowing 1000ms infinite;border:inset 1px #b2b1b1; background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/on.jpg); background-size: cover}
                 .contact{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/closed.jpg); background-size: cover; color: #000000}
                 .contact.active{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/open.jpg); background-size: cover; color:#000000}
                 .temperature{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/nest.jpg); background-size: cover}
@@ -89,7 +89,7 @@ body{background-color:#1d1d1d!important}
 
     50% {
         border-color: #FF0000;
-        box-shadow: 0 0 40px #FF0000;
+        box-shadow: 0 0 20px #FF0000;
     }
 
     100% {
