@@ -75,7 +75,7 @@ body{background-color:#1d1d1d!important}
                 .switch.active{animation: glowing 1500ms infinite;border:inset 1px #b2b1b1; background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/on.jpg); background-size: cover}
                 .contact{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/closed.jpg); background-size: cover}
                 .contact.active{animation: glowing 1500ms infinite;background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/open.jpg); background-size: cover; color:#000000}
-                .temperature{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/nest.jpg); background-size: cover;color: #000000; padding-top:0px}
+                .temperature{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/nest.jpg); background-size: cover;color: #000000; padding-top:0px; margin-top:0px}
                 .humidity{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/nest.jpg); background-size: cover}
                 .battery{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/battery.jpg); background-size: cover}
                 .dimmer{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/off11.jpg); background-size: cover}
