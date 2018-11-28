@@ -7,7 +7,7 @@
 .dimmer,.momentary,.switch{background-color:#000000}
 .contact{background-color:#e91e63}
 .refresh{background-color:#000000}
-.temperature{background-color:#ff6f00; text-align:top}
+.temperature{background-color:#ff6f00}
 .mode{background-color:#673ab7}
 .motion{background-color:#2196f3}
 .humidity{background-color:#795548}
@@ -46,7 +46,7 @@ body{background-color:#1d1d1d!important}
             .title{font-size:.9em;line-height:1em;height:2em;overflow:ellipsis;position:absolute;top:5px;left:5px}
             .title2{font-size:12px}
             .icon{font-size:3em;line-height:3em;width:100%;margin-top:-1.5em;position:absolute;text-align:center;top:50%;white-space:nowrap}
-            .icon.text{font-size:1.8em;line-height:2em;width:100%;margin-top:-1em}
+            .icon.text{font-size:1.8em;line-height:2em;width:100%;margin-top:-3em}
             .icon span.text{font-size:.75em;margin-right:15px}
             .footer{bottom:5px;color:#fff;font-size:11px;left:5px;position:absolute;line-height:10px}
             .footer.right{right:5px;text-align:right}
