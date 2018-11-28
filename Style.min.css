@@ -7,7 +7,7 @@
 .dimmer,.momentary,.switch{background-color:#000000}
 .contact{background-color:#e91e63}
 .refresh{background-color:#000000}
-.temperature{background-color:#ff6f00}
+.temperature{background-color:#ff6f00; text-align:top}
 .mode{background-color:#673ab7}
 .motion{background-color:#2196f3}
 .humidity{background-color:#795548}
@@ -75,7 +75,7 @@ body{background-color:#1d1d1d!important}
                 .switch.active{animation: glowing 1500ms infinite;border:inset 1px #b2b1b1; background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/on.jpg); background-size: cover}
                 .contact{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/closed.jpg); background-size: cover}
                 .contact.active{animation: glowing 1500ms infinite;background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/open.jpg); background-size: cover; color:#000000}
-                .temperature{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/nest.jpg); background-size: cover;color: #000000; padding-top:0px; margin-top:0px}
+                .temperature{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/nest.jpg); background-size: cover;color: #000000}
                 .humidity{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/nest.jpg); background-size: cover}
                 .battery{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/battery.jpg); background-size: cover}
                 .dimmer{background-image: url(https://raw.githubusercontent.com/dansingha/Mystuff/master/off11.jpg); background-size: cover}
